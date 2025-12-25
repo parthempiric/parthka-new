@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Averia_Serif_Libre, Noto_Serif_Display } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/smoothscroll";
+import '@hackernoon/pixel-icon-library/fonts/iconfont.css';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
